@@ -19,3 +19,7 @@ use App\Http\Controllers\UserController;
 // });
 Route::get ('/home',[HomeController::class, 'index']);
 Route::get ('/user',[UserController::class, 'create']);
+Route::get ('/usershow',[UserController::class, 'index']);
+Route::get ('/usershow/{id}',[UserController::class, 'show']);
+Route::get ('/usershow/{id}/delete',[UserController::class, 'delete']);
+Route::get ('/usershow/{id}/edit',[UserController::class, 'edit']);
