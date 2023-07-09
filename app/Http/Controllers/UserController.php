@@ -28,7 +28,7 @@ class UserController extends Controller
         return 'Deleted';
     }
      public function edit($id) {
-        $user = User::find($id);
+        $user = User::findOrFail($id);
         $user->name = 'New Name';
         $user->save();
         return 'Edited';
