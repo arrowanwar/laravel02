@@ -14,13 +14,7 @@ class UserController extends Controller
         return $user;
     }
     public function create() {
-        $data = [
-            'name' =>'azima',
-            'email' => 'azima@g.com',
-            'password' => '1234'
-        ];
-        User::create($data);
-        return 'Created';
+      return view('User.createuser');
     }
     public function delete($id) {
         $user = User::findOrFail($id);
