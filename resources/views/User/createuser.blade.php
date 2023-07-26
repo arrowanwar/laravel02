@@ -9,6 +9,7 @@
   <body>
     
       <form action="/createuser" method="post">
+          @csrf
           <input type="text" name="name"><!-- comment -->
           <input type="submit" value="submit">
       </form>

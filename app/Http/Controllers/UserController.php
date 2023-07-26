@@ -13,6 +13,9 @@ class UserController extends Controller
         $user = User::find($id);
         return $user;
     }
+    public function adduser() {
+        return 'Add User';
+    }
     public function create() {
       return view('User.createuser');
     }

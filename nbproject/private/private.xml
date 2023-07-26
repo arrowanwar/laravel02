@@ -3,17 +3,9 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-<<<<<<< HEAD
             <file>file:/F:/laravelUpdate/laravel02/App/Http/Controllers/UserController.php</file>
-            <file>file:/F:/laravelUpdate/laravel02/App/Http/Controllers/HomeController.php</file>
             <file>file:/F:/laravelUpdate/laravel02/routes/web.php</file>
-            <file>file:/F:/laravelUpdate/laravel02/App/Http/Controllers/Controller.php</file>
-=======
-            <file>file:/G:/laravel02/laravel02/app/Http/Controllers/UserController.php</file>
-            <file>file:/G:/laravel02/laravel02/app/Http/Controllers/HomeController.php</file>
-            <file>file:/G:/laravel02/laravel02/routes/web.php</file>
-            <file>file:/G:/laravel02/laravel02/resources/views/User/createuser.blade.php</file>
->>>>>>> 547af8f510b00c0c2013be99269efcfc60eda000
+            <file>file:/F:/laravelUpdate/laravel02/resources/views/User/createuser.blade.php</file>
         </group>
     </open-files>
 </project-private>
