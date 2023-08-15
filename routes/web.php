@@ -23,3 +23,16 @@ Route::get('user', function () {
     $users = User::all();
     return view('user.index', ['users'=>$users]);
 });
+Route::get('post', function(){
+    $data = [
+     'title'=> 'Welcome to Dhaka',
+     'description' => 'lorem imsum',
+     'status' => 1,
+     'user_id' => 1
+       ];
+       App\Models\Posts::create($data);
+});
+Route::get('one-to-one',function(){
+    $user = User::find(1);
+    dd($user);
+});
